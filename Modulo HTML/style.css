@@ -1,11 +1,25 @@
-.title, .titlePost, .titlePostMini{ 
-    color: chocolate;
+body{
+    width: 900px;
+    margin: auto;
 }
-
-.title{ font-size: 32px;}
+.title, .titlePost, .titlePostMini{ 
+    color: green;
+}
+.photo{
+    border-radius: 50%;
+    border: 1px solid #777;
+}
+.title{ 
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 .titlePost{ font-size: 20px;}
 .titlePostMini{ font-size: 12px;}
 
+a{
+    text-decoration:overline
+}
 #post{
     background: rgb(214, 214, 214);
     margin: 0px;
@@ -13,4 +27,12 @@
     border-radius: 5px ;
     font-family: Futura Lt bt;
     font-style: italic;
+    text-align: justify;
+}
+#post img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+    padding-left: 15px;
 }
